@@ -127,7 +127,7 @@ dependencies = [
   "mypy>=1.15.0,<3.0.0",
   "ruff>=0.13.0,<0.17.0",
   # PIL is an optional import in types/multimodal.py
-  "pillow",
+  "pillow>=12.1.1,<13.0.0",
   # Include required pacakge dependencies for mypy
   "strands-agents-evals @ {root:uri}",
 ]
